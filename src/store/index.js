@@ -1,0 +1,83 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+export default new Vuex.Store({
+	 state:{
+         city:"",
+         vuexcontractld:"",
+         vuexprojectName:"",
+         vuexproviderCompanyName:"",
+         vuexstartTime:"",
+         vuexendTime:"",
+         vuexname:"",
+         vuexnation:"",
+         vuexaddress:"",
+         vuexIDCard:"",
+         vuexBirth:"",
+         vuexsex:"",
+         vuexidCardFilePath:"",
+         vuexfaceFilePath:"",
+         vuexspecialmessage:"",
+         vuexexamReportFilePath:"",
+         vuexinsuranceFilePath:"",
+         vuexphone:"",
+     },
+     mutations:{
+         ChangeCity(state,city){
+             state.city=city;
+         },
+         Changevuexcontractld(state,vuexcontractld){
+            state.vuexcontractld=vuexcontractld;
+        },
+        ChangevuexprojectName(state,vuexprojectName){
+            state.vuexprojectName=vuexprojectName;
+        },
+        ChangevuexproviderCompanyName(state,vuexproviderCompanyName){
+            state.vuexproviderCompanyName=vuexproviderCompanyName;
+        },
+        ChangevuexstartTime(state,vuexstartTime){
+            state.vuexstartTime=vuexstartTime;
+        },
+        ChangevuexendTime(state,vuexendTime){
+            state.vuexendTime=vuexendTime;
+        },
+        Changevuexname(state,vuexname){
+            state.vuexname=vuexname;
+        },
+        Changevuexnation(state,vuexnation){
+            state.vuexnation=vuexnation;
+        },
+        Changevuexaddress(state,vuexaddress){
+            state.vuexaddress=vuexaddress;
+        },
+        ChangevuexIDCard(state,vuexIDCard){
+            state.vuexIDCard=vuexIDCard;
+        },
+        ChangevuexBirth(state,vuexBirth){
+            state.vuexBirth=vuexBirth;
+        },
+        Changevuexsex(state,vuexsex){
+            state.vuexsex=vuexsex;
+        },
+        ChangevuexidCardFilePath(state,vuexidCardFilePath){
+            state.vuexidCardFilePath=vuexidCardFilePath;
+        },
+        ChangevuexfaceFilePath(state,vuexfaceFilePath){
+            state.vuexfaceFilePath=vuexfaceFilePath;
+        },
+        Changevuexspecialmessage(state,vuexspecialmessage){
+            state. vuexspecialmessage= vuexspecialmessage;
+        },
+        ChangevuexexamReportFilePath(state,vuexexamReportFilePath){
+            state.vuexexamReportFilePath=vuexexamReportFilePath;
+        },
+        ChangevuexinsuranceFilePath(state,vuexinsuranceFilePath){
+            state.vuexinsuranceFilePath=vuexinsuranceFilePath;
+        },
+        Changevuexphone(state,vuexphone){
+            state.vuexphone=vuexphone;
+        },
+        
+     }
+})
